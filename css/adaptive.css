@@ -1,0 +1,23 @@
+@media screen and (max-width: 1440px){
+	body{
+		flex-flow: column;
+	}
+	.main,.menu{
+		width: 100%;
+		max-width: none;
+		max-height: none;
+	}
+}
+@media screen and (max-width: 1024px){
+	.menu{
+		height: auto;
+	}
+	.menu .block_1,
+	.menu .block_2{
+		display: flex;
+		flex-flow: column;
+	}
+	.menu .block_1 a, .menu .block_2 a{
+		height: 500px;
+	}
+}
