@@ -18,6 +18,6 @@
 		flex-flow: column;
 	}
 	.menu .block_1 a, .menu .block_2 a{
-		height: 500px;
+		height: 33.33vh;
 	}
 }
